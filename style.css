@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= League+Gothic & display=swap');
+
+/*
+#0A73F0
+#D65B22
+#0FE03A
+#C705F7
+#EDCE05
+*/
+
+
+:root{
+  --cor1: #0A73F0;
+  --cor2: #D65B22;
+  --cor3: #0FE03A;
+  --cor4: #C705F7;
+  --cor5: #EDCE05;
+
+
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:var(--cor3);
+    font-family:'League Gothic', sans-serif;
+    color:black;
+   
+}
+
+header{
+background-color: linear-gradient(to top, var(--cor3), var(--cor5));
+color: white;
+font-weight: bolder;
+padding-top: 40px;
+padding-bottom: 20px;
+text-align: center;
+box-shadow: 1px 1px 1opx blue;
+
+}
+
+h1{
+    text-shadow: -4px -3px 4px rgb(5 5 0);
+
+}
+
+h2{
+color: var(--cor1);
+font-weight: bold;
+background-image: linear-gradient(to right, var(--cor1), transparent);
+
+}
+nav{
+background-color: var(--cor1);
+padding: 10px;
+
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+
+nav > a:hover{
+background-color: var(--cor1);
+color:var(--cor4)
+
+}
+
+main{
+background-color: white;
+margin: auto;
+min-width: 320px;/*responsivo*/
+max-width: 1000px;
+border-bottom: 40px;
+padding-bottom: 30px;
+box-shadow:rgba(0, 101, 252, 0.97) 1px -1px 3px 4px;
+text-align: center;
+
+}
+
+h2{
+    text-align: center;
+}
+
+main p{
+font-size: 18px;
+text-align: justify;
+text-indent: 30px;
+margin: 15px 7px;
+
+}
+
+pre{
+text-align: center;
+
+}
+
+aside{
+    background-color: var(--cor5);
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+
+}
+
+aside > ul{
+list-style-position: inside;
+text-align: justify;
+
+}
+
+aside > h3{
+ text-align: center;
+background-color: rgb(0, 89, 255);
+color: white;
+border-radius: 10px 10px 0px 0px;
+margin: -15px -10px 0px -10px;
+
+}
+
+footer{
+    margin-top: 10px;
+background-color: #0A73F0;
+color: white;
+text-decoration: none;
+font-size: 12px;
+text-align: center;
+
+
+}
+
+footer > a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+
+
+}
+
+img{
+width: 37%;
+border: 2px;
+border-style: solid;
+border-color:dodgerblue;
+padding: 2px;
+margin: auto;
+text-align: center;
+}
+
+#MachadodeAssisABL{
+width: 500px;
+}
+
+
+figcaption{
+font-size: 13px;
+
+}
+
+iframe{
+margin: 15px;
+border: 10px;
+border-style: solid;
+border-color: #0A73F0;
+padding: 2px;
+text-align: center;
+margin: auto;
+
+}
+
+
+ 
+
